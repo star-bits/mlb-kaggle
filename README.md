@@ -10,6 +10,6 @@
 2. edgenext_base.in21k_ft_in1k 모델을 사용 (Public Score 0.60, CV Score 0.63)
 - [rsna24lsdc-0816-train (edgenext).ipynb](https://github.com/star-bits/mlb-kaggle/blob/main/rsna24lsdc-0816-train%20(edgenext).ipynb)
 
-3. Augmentation을 간소화하고 base model은 freeze하되 classification module만 훈련 (CV Score 0.77)
+3. 이미지 사이즈 (224, 224)로 줄이고 augmentation을 간소화하고 base model은 freeze하되 classification module만 훈련 (CV Score 0.77)
 - [rsna24lsdc-0820-train.ipynb](https://github.com/star-bits/mlb-kaggle/blob/main/rsna24lsdc-0820-train.ipynb)
 
